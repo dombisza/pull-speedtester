@@ -1,0 +1,22 @@
+root@sdombi-dev-nodepool-v3-eu-de-02-cbm4p:/home/ubuntu# ./test.sh
+RUNTIME is set to cotnainerd
+### Pulling docker.io/library/elasticsearch:8.12.1 ###
+done: 17.241132105s
+633.0MiB
+####################
+### Pulling docker.io/library/mongo:7.0.5 ###
+done: 8.359934365s
+246.2MiB
+####################
+### Pulling docker.io/library/postgres:12.18-bullseye ###
+done: 5.31983216s
+133.6MiB
+####################
+### Pulling docker.io/library/openjdk:23-slim-bullseye ###
+done: 5.756942958s
+225.3MiB
+####################
+### Pulling docker.io/library/node:hydrogen-slim ###
+done: 2.829429082s
+67.1MiB
+####################
