@@ -1,0 +1,31 @@
+RUNTIME is set to docker
+### Pulling docker.io/library/elasticsearch:8.12.1 ###
+
+real    0m27.279s
+user    0m0.042s
+sys     0m0.030s
+######################
+### Pulling docker.io/library/mongo:7.0.5 ###
+
+real    0m15.454s
+user    0m0.042s
+sys     0m0.016s
+######################
+### Pulling docker.io/library/postgres:12.18-bullseye ###
+
+real    0m17.500s
+user    0m0.040s
+sys     0m0.018s
+######################
+### Pulling docker.io/library/openjdk:23-slim-bullseye ###
+
+real    0m9.020s
+user    0m0.030s
+sys     0m0.024s
+######################
+### Pulling docker.io/library/node:hydrogen-slim ###
+
+real    0m5.671s
+user    0m0.026s
+sys     0m0.023s
+######################

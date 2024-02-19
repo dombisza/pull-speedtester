@@ -25,6 +25,13 @@ if [ "$RUNTIME" == "ctr" ]; then
     done
 elif [ "$RUNTIME" == "docker" ]; then
     echo "RUNTIME is set to docker"
+    for img in "${image_names[@]}"; do
+      echo "### Pulling ${img} ###"
+      time docker pull ${img} | grep "real"
+      docker images | grep ${img} | awk '{print $7}'
+      docker rmi ${img} > /dev/null
+      echo "######################"
+    done
 else
     echo "Unsupported runtime."
     exit 1

@@ -1,0 +1,21 @@
+RUNTIME is set to cotnainerd
+### Pulling docker.io/library/elasticsearch:8.12.1 ###
+done: 17.296731633s
+633.0MiB
+####################
+### Pulling docker.io/library/mongo:7.0.5 ###
+done: 8.633851212s
+246.2MiB
+####################
+### Pulling docker.io/library/postgres:12.18-bullseye ###
+done: 5.560271021s
+133.6MiB
+####################
+### Pulling docker.io/library/openjdk:23-slim-bullseye ###
+done: 5.850746836s
+225.3MiB
+####################
+### Pulling docker.io/library/node:hydrogen-slim ###
+done: 2.911852996s
+67.1MiB
+####################
